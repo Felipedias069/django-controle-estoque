@@ -1,8 +1,8 @@
-{% load static %}
+{% load static%}
 
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
-  <head><script src=" {% static 'assets/js/color-modes.js' %}"></script>
+  <head><script src="{% static 'assets/js/color-modes.js' %}"></script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,7 +17,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
 
-<link href="{% static 'assets/dist/css/bootstrap.min.css' %}" rel="stylesheet">
+<link href="{% static 'assets/dist/css/bootstrap.min.css'%}" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -185,25 +185,10 @@
   </div>
 </header>
 
-<main>
-
-  <section class="py-5 text-center container">
-    <div class="row py-lg-5">
-      <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light">Album example</h1>
-        <p class="lead text-body-secondary">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
-        <p>
-          <a href="#" class="btn btn-primary my-2">Main call to action</a>
-          <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-        </p>
-      </div>
-    </div>
-  </section>
 
   {% block conteudo %} {% endblock %}
 
-
-<footer class="text-body-secondary py-5">
+  <footer class="text-body-secondary py-5">
     <div class="container">
       <p class="float-end mb-1">
         <a href="#">Back to top</a>
